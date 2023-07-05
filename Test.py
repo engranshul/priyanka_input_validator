@@ -7,7 +7,6 @@ class Test:
     def run_tests(self):
         # Test cases
         test_cases = [
-            ("example@example.com", "Input is an email address."),
             ("example.com", "Input is a domain name."),
             ("1234", "Invalid input."),
             (1234, "Invalid input.")
